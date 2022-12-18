@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+    app:
+        image: gabekangas/owncast:lastest
+        restart: always
+        volumes:
+            - './data:/app/data'
+        ports:
+            - '172.17.0.1:5050:8080'
+            - '172.17.0.1:1935:1935'
