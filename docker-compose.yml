@@ -1,7 +1,7 @@
 version: '3.3'
 services:
     app:
-        image: gabekangas/owncast:lastest
+        image: gabekangas/owncast:latest
         restart: always
         volumes:
             - './data:/app/data'
