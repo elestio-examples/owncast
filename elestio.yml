@@ -28,7 +28,7 @@ lifeCycleConfig:
   preRestoreCommand: "./scripts/preRestore.sh"
   postRestoreCommand: "./scripts/postRestore.sh"
 webUI:
-  - url: "https://[CI_CD_DOMAIN]"
+  - url: "https://[CI_CD_DOMAIN]/admin"
     label: "Owncast Admin"
-    login: "root"
+    login: "admin"
     password: "[ADMIN_PASSWORD]"

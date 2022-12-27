@@ -15,3 +15,7 @@ You can can open Owncast UI here:
     URL: https://[CI_CD_DOMAIN]
     Login: root
     password: [ADMIN_PASSWORD]
+
+# Documentation
+
+You can read the documentation <a target="_blank" href="https://owncast.online/docs/">here</a>

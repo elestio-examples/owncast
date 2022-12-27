@@ -1,12 +1,10 @@
 set env vars
 set -o allexport; source .env; set +o allexport;
 
-sleep 10s;
 echo "Waiting..."
+sleep 10s;
 
 target=$(docker-compose port app 8080)
-
-echo $ADMIN_PASSWORD
 
 curl http://${target}/api/admin/config/key \
   -H 'content-type: text/plain;charset=UTF-8' \
