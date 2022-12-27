@@ -2,6 +2,8 @@
 
 target=$(docker-compose port app 8080)
 
+echo $ADMIN_PASSWORD
+
 curl http://${target}/api/admin/config/key \
   -H 'content-type: text/plain;charset=UTF-8' \
   -u "admin:abc123" \
