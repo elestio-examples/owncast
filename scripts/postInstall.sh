@@ -1,4 +1,8 @@
+set env vars
+set -o allexport; source .env; set +o allexport;
 
+sleep 10s;
+echo "Waiting..."
 
 target=$(docker-compose port app 8080)
 
