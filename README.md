@@ -10,7 +10,7 @@ Deploy Owncast server with CI/CD on Elestio
 
 # Once deployed ...
 
-You can can open Owncast UI here:
+You can open Owncast UI here:
 
     URL: https://[CI_CD_DOMAIN]
     Login: root
