@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+    app:
+        image: elestio4test/owncast:latest
+        restart: always
+        volumes:
+            - './data:/app/data'
+        ports:
+            - '172.17.0.1:5050:8080'
+            - '1935:1935'
