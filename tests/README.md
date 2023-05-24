@@ -57,11 +57,6 @@ Here are some example snippets to help you get started creating a container.
                 - '172.17.0.1:5050:8080'
                 - '1935:1935'
 
-### Environment variables
-
-|    Variable    | Value (example) |
-| :------------: | :-------------: |
-| ADMIN_PASSWORD |     xxxxxx      |
 
 # Maintenance
 
