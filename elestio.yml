@@ -9,7 +9,7 @@ ports:
     isAuth: false
 environments:
   - key: "ADMIN_PASSWORD"
-    value: "random_password"
+    value: "@random_password#"
 
 config:
   runTime: "dockerCompose"
