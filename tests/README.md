@@ -40,7 +40,7 @@ Run the project with the following command
 
     docker-compose up -d
 
-You can access the Web UI at: `http://your-domain:3333`
+You can access the Web UI at: `http://your-domain:5050`
 
 ## Docker-compose
 
@@ -95,6 +95,6 @@ That's it! With these simple steps, you can easily backup and restore your data 
 
 - <a target="_blank" href="https://owncast.online/docs/">Owncast documentation</a>
 
-- <a target="_blank" href="https://github.com/elestio-examples/owncast">Owncast Github repository</a>
+- <a target="_blank" href="https://github.com/owncast/owncast">Owncast Github repository</a>
 
 - <a target="_blank" href="https://github.com/elestio-examples/owncast">Elestio/owncast Github repository</a>
