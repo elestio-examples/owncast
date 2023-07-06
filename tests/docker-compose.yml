@@ -3,6 +3,7 @@ services:
     app:
         image: elestio4test/owncast:latest
         restart: always
+        user: 0:0
         volumes:
             - './data:/app/data'
         ports:
