@@ -1,7 +1,7 @@
 version: "3.3"
 services:
   app:
-    image: owncast/owncast:latest
+    image: elestio/owncast:latest
     user: 0:0
     restart: always
     volumes:
