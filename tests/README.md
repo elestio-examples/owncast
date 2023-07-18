@@ -50,13 +50,13 @@ Here are some example snippets to help you get started creating a container.
     services:
         app:
             image: elestio4test/owncast:latest
+            user: 0:0
             restart: always
             volumes:
                 - './data:/app/data'
             ports:
                 - '172.17.0.1:5050:8080'
                 - '1935:1935'
-
 
 # Maintenance
 

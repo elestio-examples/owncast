@@ -1,2 +1,1 @@
-docker build . --tag elestio4test/owncast:latest;
-TAG_TO_CHANGE
+docker buildx build . --output type=docker,name=elestio4test/owncast:latest | docker load

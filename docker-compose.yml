@@ -2,6 +2,7 @@ version: "3.3"
 services:
   app:
     image: owncast/owncast:latest
+    user: 0:0
     restart: always
     volumes:
       - "./data:/app/data"
